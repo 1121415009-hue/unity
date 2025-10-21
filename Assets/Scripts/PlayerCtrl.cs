@@ -6,15 +6,22 @@ public class PlayerCtrl : MonoBehaviour
 {
     public CharacterController charCtrl;
     public int HP;
-    // Start is called before the first frame update
+
+    // 初始化
     void Start()
     {
         HP = 100;
     }
 
-    // Update is called once per frame
+    // 更新:偵測操作
     void Update()
     {
+      
+    }
+
+    public void Move()
+    {
+        //角色控制器.移動(往前)
         charCtrl.SimpleMove(Vector3.forward);
     }
 }
