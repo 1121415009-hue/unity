@@ -2,13 +2,13 @@
     "name": "Controls",
     "maps": [
         {
-            "name": "play",
-            "id": "91e2b7f5-7dff-4ea4-9aca-e0ef317a475f",
+            "name": "Play",
+            "id": "ed3816bc-ac47-4f89-ae29-05e8d89c557c",
             "actions": [
                 {
                     "name": "Move",
                     "type": "Value",
-                    "id": "3915edf6-b5b9-4ed1-a5a6-a931f8a61e28",
+                    "id": "580babc8-83ff-4565-95e8-2b716f87b5e8",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -18,7 +18,7 @@
             "bindings": [
                 {
                     "name": "WASD",
-                    "id": "b9a09125-806f-40d5-8bb8-1f8cbd9381af",
+                    "id": "ac9fca8e-3a13-48a8-af16-9de006cf6860",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -29,7 +29,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "464beb1a-37bf-4562-bb36-494362a3abce",
+                    "id": "fad207c8-dc2d-4fac-ac8b-f3896bfdd19d",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
@@ -40,7 +40,7 @@
                 },
                 {
                     "name": "down",
-                    "id": "3a02d3d2-1850-412e-926f-fd7aebd70a43",
+                    "id": "cf0cab93-dd15-4669-9a3d-5b7315d2b7c1",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
@@ -51,7 +51,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "74a1825c-b5dc-4671-8ad0-d7d4a39b1c52",
+                    "id": "f62c10ff-f887-4c6a-8f14-f17d0dc17ef9",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -62,7 +62,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "c8f2f71d-a733-4b10-b20c-ee86ba4201ef",
+                    "id": "6c1237f1-f50d-405a-9bfb-ec06a7f80e76",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
@@ -73,7 +73,7 @@
                 },
                 {
                     "name": "Stick",
-                    "id": "7fa69713-693d-416f-96d2-d0b03225a88f",
+                    "id": "b0b3ecfb-2ad7-4879-8b15-c7d322aa5435",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -84,8 +84,8 @@
                 },
                 {
                     "name": "up",
-                    "id": "03ed7599-58d2-4913-a64b-1c81c507dfd3",
-                    "path": "<Gamepad>/buttonWest",
+                    "id": "4641fa5c-59c1-4683-a10d-367e125151b5",
+                    "path": "<XInputController>/leftStick/up",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -95,8 +95,8 @@
                 },
                 {
                     "name": "down",
-                    "id": "0896e2e9-39bb-4e18-b7da-8817a5f40f6b",
-                    "path": "<Gamepad>/leftStick/down",
+                    "id": "fbaf40e9-5084-4c71-9854-6d6130a5a611",
+                    "path": "<XInputController>/leftStick/left",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -106,8 +106,8 @@
                 },
                 {
                     "name": "left",
-                    "id": "b247ed49-b20a-41be-bd6a-b2e428448066",
-                    "path": "<Gamepad>/leftStick/left",
+                    "id": "0ac68389-b640-4ef4-960c-3185246fd72c",
+                    "path": "<XInputController>/leftStick/left",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -117,8 +117,8 @@
                 },
                 {
                     "name": "right",
-                    "id": "a2ef31d5-5a98-40f2-a18a-70fcb3581edb",
-                    "path": "<Gamepad>/leftStick/right",
+                    "id": "0174c783-9815-4419-821a-14775332d45e",
+                    "path": "<XInputController>/leftStick/right",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
